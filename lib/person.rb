@@ -7,11 +7,11 @@ class Person
     @name
   end
   
-  def breed=(persons_job)
+  def job=(persons_job)
     @job=persons_job
   end
   
-  def breed
+  def job
     @job
   end
   
@@ -19,6 +19,4 @@ end
 
 beyonce=Person.new
 beyonce.name = "Beyonce"
-puts beyonce.name
 beyonce.job="Singer"
-puts beyonce.job
