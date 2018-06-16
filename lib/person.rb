@@ -17,6 +17,8 @@ class Person
   
 end
 
-lassie=Person.new
-lassie.name = "Lassie"
-puts lassie.name
+beyonce=Person.new
+beyonce.name = "Beyonce"
+puts beyonce.name
+beyonce.job="Singer"
+puts beyonce.job
